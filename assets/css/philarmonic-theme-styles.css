@@ -1,0 +1,293 @@
+body {
+    margin: 0;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    color: #515151;
+    background-color: #fff;
+}
+/* .search-form {
+	float: right;
+} */
+
+#post-2 {
+    font-size: 25px;
+}
+header {
+    background: transparent url(..//img/bg_head.jpg) no-repeat center;
+    /* background-color: azure; */
+    background-size: 100% auto;
+}
+#header-frontpage {
+    padding-top: 50px;
+}
+#header-parts {
+    width: 60%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#headr-part-left, #header-part-right{
+    width: 25%;
+}
+#logo {
+    margin: 0px auto;
+}
+#header-brand {
+    color: #E58E03;
+    margin: 20px auto;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+.header-main-menu {
+    margin: 40px auto 0 auto;
+    width: 60%;
+    background-color: #01966E;
+}
+.tickets-online, .search-form {
+    margin-top: 10px;
+    background-color: #01966E;
+    color: #FFF; 
+    padding: 15px;
+}
+#footer {
+    background-color: #006246;
+    color: #FFF;
+    margin-top: 40px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+.footer-content {
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer {
+    color: #FFF;
+}
+
+
+.part-3 {
+    margin-left: 15px;
+    position: relative;
+    flex-basis: 25%;
+}
+
+img {
+    display: inline-block;
+    padding: 5px;
+}
+
+h5.line {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+h5 {
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 2px;
+}
+
+h4.line {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 15px;
+    position: absolute;
+    left: 85px;
+    display: inline-block;
+}
+.part-2 {
+    flex-basis: 20%;
+}
+.part-4 {
+    flex-basis: 30%;
+}
+/* .footer-menu {
+    color: #FFF;
+    text-decoration: none;
+} */
+.header-menu, .footer-menu {
+    color:#fff;
+    text-decoration: none;
+}
+.for-title {
+    color: #E58E03;
+    text-decoration: none;
+}
+ul, li {
+    display: block;
+    margin-bottom: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+nav.main-menu {
+    padding: 0;
+    text-align: center;
+}
+nav.main-menu li {
+    display: inline-block;
+    margin: 10px;
+}
+nav.main-menu li.current-menu-item a {
+    color: sandybrown;
+} 
+nav.main-menu li a {
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    margin: 5px;
+}
+.container a {
+    display: inline-block;
+    color: rgb(2, 97, 72);
+    text-decoration: none;
+    margin: 5px; 
+} 
+li.main-point-menu {
+    display: inline-block;
+    margin: 15px;
+    width: 20%;
+    color: #FFF;
+}
+a:hover {
+    background-color: rgb(224, 224, 131);
+    transition: background-color 1.5s ease;
+}
+p.concert-title {
+    margin: 50px auto 10px 0;
+    font-size: 35px;
+    font-weight: 600;
+}
+.container .some-post a:hover {
+    background-color: transparent;
+}
+.container .single-some-post {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.container .single-some-post .concert-description {
+    width: 60%;
+    /* margin-right: 10px; */
+}
+.container .single-some-post .concert-description h2 {
+    margin-top: 40px;
+}
+.container .single-some-post .concert-affiche {
+    width: 30%;
+    margin-top: 40px;
+}
+.single-some-post .concert-affiche img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+.contactsbtt .contttss {
+    display: inline-block;
+    margin-right: 4px;
+}
+.contactsbtt .contttss a i.fa-instagram {
+    background-color: #4c68d7;
+}
+.contactsbtt .contttss a i.fa-youtube {
+    background-color: red;
+}
+.contactsbtt .contttss a i {
+    background-color: #CCC;
+    display: block;
+    line-height: 32px;
+    color: #FFF;
+}
+.gap {
+    margin-bottom: 20px;
+}
+
+/* i {
+    font-family: fontawesome !important;
+} */
+
+.fa, .fas {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fas {
+    margin-right: 10px;
+}
+.contactsbtt .contttss a {
+    font-size: 16px;
+    display: block;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    line-height: 32px;
+}
+.contactsbtt .contttss a i.fa-facebook {
+    background-color: #3b5998;
+}
+.contactsbtt .contttss a i {
+    background-color: #CCC;
+    display: block;
+    line-height: 32px;
+    color: #FFF;
+}
+.contactsbtt .contttss a i.fa-odnoklassniki {
+    background-color: #F2720C;
+}
+.break {
+    width: 400px;
+    height: 100px;
+    background-color: rgb(226, 166, 166);
+    border: darkblue;
+    font-size: 50px;
+    text-align: center;
+}
+a.break {
+    color: darkblue;
+}
+.container {
+    margin: 0 auto;
+    max-width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: stretch; */
+    justify-content: space-between;
+}
+.some-post {
+    max-width: 250px;
+    margin-top: 15px;
+    
+}
+.sticky {
+    display: flex;
+    width: 60%;
+    margin: 10px auto;
+    /* font-style: italic; */
+    font-size: 13px;
+}
+.sticky-image {
+    width: 20%;
+}
+.sticky-text {
+    width: 80%;
+    margin-left: 10px;
+}
+img.sticky-image {
+    width: 80%;
+    padding: 0;
+}
+#strong {
+    padding-top: 2px;
+    font-weight: 700;
+}
