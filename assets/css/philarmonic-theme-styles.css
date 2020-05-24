@@ -161,6 +161,22 @@ a:hover {
     background-color: rgb(224, 224, 131);
     transition: background-color 1.5s ease;
 }
+section ul#crumbs{
+    width: 60%;
+    margin: 0 auto;
+    padding: 0;
+}
+section ul#crumbs li{
+    display: inline-block;
+    margin: 0;
+    font-size: 12px;
+}
+section ul#crumbs li a{
+    
+    color: rgb(2, 97, 72);
+    text-decoration: none;
+    margin: 0; 
+}
 p.concert-title {
     margin: 50px auto 10px 0;
     font-size: 35px;

@@ -22,8 +22,9 @@
          echo '<li><a href="';
          echo get_option('home');
          echo '">';
-         echo 'Home';
+         echo 'Главная';
          echo "</a></li>";
+         echo '  &#10148; ';
          if (is_category() || is_single()) {
             echo '<li>';
             the_category(' </li><li> ');
