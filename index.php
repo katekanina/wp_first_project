@@ -14,7 +14,7 @@
     <div class="container">
         <?php if ( have_posts() ) : ?>
             <?php while ( have_posts() ) : the_post(); ?>
-                <?php if( ! in_category( array( 'news' ) )) { ?>
+                <?php if( ! in_category( array( 'news', 'history' ) )) { ?>
                     <div class="some-post">
                         <?php if(has_post_thumbnail()) {  ?>
                             <a href="<?php the_permalink(); ?>">
