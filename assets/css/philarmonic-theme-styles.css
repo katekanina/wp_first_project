@@ -183,9 +183,6 @@ ul.sub-menu li {
     padding: 10px;
     margin: 0;
 }
-/* nav.main-menu li ul.sub-menu:hover li a {
-    display: block;
-} */
 .container a {
     display: inline-block;
     color: rgb(2, 97, 72);
@@ -213,7 +210,6 @@ section ul#crumbs li{
     font-size: 12px;
 }
 section ul#crumbs li a{
-    
     color: rgb(2, 97, 72);
     text-decoration: none;
     margin: 0; 
