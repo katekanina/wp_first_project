@@ -11,7 +11,7 @@
         <!-- <?php get_search_form(); ?>  -->
         <div id="header-frontpage">
             <div id="header-parts">
-                <div id="headr-part-left">
+                <div id="header-part-left">
                     <div class="tickets-online">Касса: +375 17 331 16 17</div>
                     <!-- <p id="header-cassa">Касса: +375 17 331 16 17</p> -->
                     <!-- <p id="header-phone-number">+375 17 331 16 17</p> -->
